@@ -1,0 +1,294 @@
+.btn {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px auto;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 10px #999;
+}
+
+.btn-alert {
+  background-color: #D24F6B;
+  border: 1px solid #D24F6B;
+  color: #EAE2CF;
+}
+
+.btn-alert > i{
+  font-size: 18px;
+}
+
+.btn-alert:hover {
+  background-color: #D24F6BCC;
+  border: 1px solid #D24F6BCC;
+}
+
+.btn-default {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.btn-default:hover {
+  background-color: #aaa;
+  border: 1px solid #aaa;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.center {
+  justify-self: center;
+}
+
+.details-description {
+  background-color: #fff6;
+  border-radius: 6px;
+  margin: 25px 0;
+  padding: 20px 30px;
+}
+
+.details-description-content {
+  font-size: 16px;
+}
+
+.details-description-title {
+  border-bottom: 1px solid #ccc;
+  color: #588B71;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.details-img {
+  width: 735px;
+  height: 420px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px #999;
+}
+
+.details-name {
+  border-bottom: 1px solid #ccc;
+  font-size: 40px;
+  margin: 40px 10px 20px 10px;
+  padding-bottom: 15px;
+}
+
+.details-values {
+  border-bottom: 2px solid #ccc;
+  border-radius: 10px;
+  height: 150px;
+  margin: 25px 0;
+  padding: 0 10px 0 50px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.details-values-price {
+  font-size: 30px;
+}
+
+.flickity-button:disabled {
+  display: none;
+}
+
+.flickity-page-dots {
+  bottom: -22px;
+}
+
+.flickity-page-dots .dot {
+  border-radius: 0;
+  height: 4px;
+  margin: 0;
+  width: 40px;
+}
+
+.flickity-prev-next-button.previous {
+  left: -50px;
+}
+.flickity-prev-next-button.next {
+  right: -50px;
+}
+
+.form-control {
+  border: 1px solid #48506566;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 20px 0;
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.full-size {
+  grid-column: span 12;
+}
+
+.gallery {
+  grid-column: span 12;
+  white-space: nowrap;
+}
+
+.gallery-cell {
+  background: white;
+  border-radius: 8px;
+  counter-increment: gallery-cell;
+  display: inline-block;
+  height: 300px;
+  margin-right: 33px;
+  margin-top: 5px;
+  text-align: center;
+  width: 230px;
+  white-space: normal;
+}
+
+.gallery-cell:last-child {
+  margin-right: 0;
+}
+
+.heart {
+  color:#E25555;
+}
+
+.menu {
+  justify-self: end;
+  margin-right: 80px;
+}
+
+.menu > ul {
+  margin: 4px 0 0 0;
+}
+
+.menu > ul > li {
+  display: inline-block;
+}
+
+.menu > ul > li > a {
+  color: #eae2cf;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+
+.menu > ul > li > a:hover {
+  color: #eae2cf99;
+}
+
+.menu > ul > li > a .badge {
+  background: #a30000;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  position: relative;
+  right: 5px;
+  top: -15px;
+  z-index: 100;
+}
+
+.menu > ul > li > a > i {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.mid-size {
+  grid-column: span 6;
+}
+
+.product {
+  color: #485065;
+  margin: 5px 15px;
+}
+
+.product-img {
+  border-radius: 8px;
+  width: 195px;
+  height: 130px;
+  margin: 15px auto 10px auto;
+}
+
+.product-name {
+  font-size: 22px;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.product-value {
+  font-size: 18px;
+  text-align: right;
+}
+
+.product-info {
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.product-info > a {
+  color: #588B71;
+  text-decoration: none;
+}
+
+.product-info > a:hover {
+  color: #586971
+}
+
+.product-btn {
+  margin: 10px auto;
+}
+
+.quarter-up {
+  grid-column: span 8;
+}
+
+.quarter-down {
+  grid-column: span 4;
+}
+
+.section-subtitle {
+  border-bottom: 1px solid #cccc;
+  margin-top: 30px;
+  padding-bottom: 8px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.sidebarIconToggle {
+  cursor: pointer;
+  height: 40px;
+  opacity: 0;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  width: 40px;
+}
+
+.sidebarIconToggle > i {
+  font-size: 35px;
+  color: #eae2cf;
+  transition: all .3s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+}
+
+.sidebarIconToggle > i:hover {
+  color: #eae2cfcc;
+}
+
+.topo {
+  color: #eae2cf;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 70px;
+  margin: 0 auto;
+  width: 80%;
+}

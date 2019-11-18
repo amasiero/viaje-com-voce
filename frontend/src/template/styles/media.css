@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    min-width: 400px !important;
+  }
+
+  .section-subtitle.full-size {
+    width: 350px;
+  }
+  .gallery {
+    width: 350px;
+  }
+
+  .btn.btn-default > span {
+    display: none;
+  }
+
+  .details-values {
+    display: flex !important;
+    top: 6.5% !important;
+    height: 60px !important;
+  }
+
+  .details-values-price {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 631px) {
+  .logo > a > span {
+    display: none;
+  }
+
+  .details-description {
+    background-color: #fffc !important;
+    min-width: 330px;
+  }
+
+  .details-img {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .details-name {
+    background-color: #3333;
+    border: 0 !important;
+    color: #eae2cf;
+    padding: 20px 40px;
+  }
+
+  .details-values {
+    background: #fff8;
+    border: 0 !important;
+    padding: 0 20px !important;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+  }
+
+  .details-values-price {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+  .sidebarIconToggle {
+    opacity: 1 !important;
+  }
+  .menu {
+    background: linear-gradient(to bottom, #485065 0%, #485065CC 50%, #48506599 100%);
+    height: calc(100vh - 70px);
+    left: 0;
+    margin-left: 0;
+    position: fixed;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    top: 70px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .menu > ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu > ul > li{
+    padding: 5px 0;
+  }
+
+  .menu > ul > li > a{
+    color: #eae2cf !important;
+    border: none !important;
+    font-size: 25px !important;
+  }
+
+  .menu > ul > li > a:hover{
+    color: #eae2cf99 !important;
+  }
+
+  .sidebarIconToggle {
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    transition: all 0.3s;
+    z-index: 99;
+  }
+
+}
