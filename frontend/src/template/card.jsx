@@ -13,7 +13,7 @@ export default props => (
             <i className='fa fa-plus'></i> Mais informações
           </a>
         </p>
-        <button className='btn btn-alert product-btn' onClick={(props) => {addToCart(props.object)}}>
+        <button className='btn btn-alert product-btn' onClick={() => {addToCart(props.object)}}>
           <i className='fa fa-cart-plus'></i> Adicionar
         </button>
       </div>

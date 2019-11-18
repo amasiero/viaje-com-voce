@@ -8,9 +8,10 @@ const URL = 'http://localhost:3003/api/viaje'
 export default props => {
 
   const renderRows = (items) => {
+      console.log(items)
       return items.map(item => (
       <tr>
-        <td>{item.description}</td>
+        <td>{item.name}</td>
         <td>R$ {item.value}</td>
         <td>Ações</td>
       </tr>

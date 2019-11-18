@@ -13,7 +13,7 @@ return(
   <HashRouter>
     <Route path='/galeria' render={(props) => <Gallery {...props} />} />
     <Route path='/viagem/:id' component={Travel} />
-    <Route path='/carrinho/:id' render={(props) => <Cart {...props} addCart={addCart} />} />
+    <Route path='/carrinho' component={Cart} />
     <Redirect from='*' to='/galeria' />
   </HashRouter>
 )
