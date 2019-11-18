@@ -2,17 +2,14 @@ import React from 'react'
 import axios from 'axios'
 
 import CardContainer from '../template/cardContainer'
-// import {CartContext} from '../context/cardContext'
 
 const URL = 'http://localhost:3003/api/viaje'
 
-export default class Gallery extends React.Component {
-
+class Gallery extends React.Component {
   constructor(props) {
     super(props)
     this.state = { list: [] }
     this.loadTravels()
-    this.handleAddCart = this.handleAddCart.bind(this)
   }
 
   loadTravels() {
@@ -20,13 +17,11 @@ export default class Gallery extends React.Component {
       .then(res => this.setState({...this.state, list: res.data}))
   }
 
-  handleAddCart(travel) {
-    console.log(travel)
-  }
-
   render() {
     return (
-      <CardContainer title={'Viagens com Natureza'} list={this.state.list} handleAddCart={this.handleAddCart}/>
+      <CardContainer title={'Viagens com Natureza'} list={this.state.list} />
     )
   }
 }
+
+export default Gallery

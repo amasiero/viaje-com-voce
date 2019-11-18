@@ -29,4 +29,4 @@ Depois para executar faça:
 ## Acessando o site:
 
 Acesse o endereço:
-{http://localhost:8080/}[http://localhost:8080/]
+[http://localhost:8080/](http://localhost:8080/)

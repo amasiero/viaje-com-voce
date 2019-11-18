@@ -6,6 +6,7 @@ import React from 'react'
 import Header from '../template/header'
 import Footer from '../template/footer'
 import Router from './routes'
+import {CartProvider} from '../context/cartContext'
 
 class App extends React.Component {
 
@@ -15,11 +16,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Header />
-        <Router />
-        <Footer />
-      </React.Fragment>
+      <CartProvider>
+        <React.Fragment>
+          <Header />
+          <Router />
+          <Footer />
+        </React.Fragment>
+      </CartProvider>
     )
   }
 }

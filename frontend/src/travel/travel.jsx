@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-import CurrencyFormat from 'react-currency-format'
 
 const URL = 'http://localhost:3003/api/viaje'
 
