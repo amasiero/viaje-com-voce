@@ -18,6 +18,8 @@ Depois para executar faça:
 
 Não esqueça que o mongodb deve estar em execução.
 
+Base de dados de amostra para popular o banco pode ser encontrada no arquivo [`bd-initialize-data.json`](backend/bd-initialize-data.json)
+
 ## Instalação do Frontend:
 
 Pelo terminal acesse a pasta frontend e execute o comando:

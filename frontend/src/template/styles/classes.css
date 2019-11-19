@@ -36,7 +36,15 @@
   background-color: #aaa;
   border: 1px solid #aaa;
 }
+.btn-small {
+  width: 32px;
+  height: 32px;
+  padding: 3px !important;
+}
 
+.btn-action-quantity {
+  margin: 0 5px;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -291,4 +299,41 @@
   line-height: 70px;
   margin: 0 auto;
   width: 80%;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 16px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.td-center {
+  text-align: center !important;
+}
+
+.tablePackage {
+  background-color: #48506588;
+  border-radius: 6px 0 0 0;
+  color: #eae2cf;
+  padding: 10px;
+}
+
+.tableValue {
+  background-color: #48506588;
+  color: #eae2cf;
+  padding: 10px;
+  text-align: center !important;
+  width: 150px;
+}
+
+
+
+.tableActions {
+  background-color: #48506588;
+  border-radius: 0 6px 0 0;
+  color: #eae2cf;
+  padding: 10px;
+  text-align: center !important;
+  width: 100px;
 }

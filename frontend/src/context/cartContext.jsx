@@ -7,16 +7,56 @@ const CartProvider = ({
 }) => {
   const [items, setItems] = React.useState([])
 
+  const findItem = id => item => (item._id === id)
+
   const addToCart = item => {
-    setItems([
+    const newItem = items.find(findItem(item._id))
+    if(newItem) {
+      return setItems(items.map(i => {
+        if(newItem._id === i._id) {
+          return  {
+            ...i,
+            quantity: i.quantity + 1
+          }
+        }
+        return i
+      }))
+    }
+    return setItems([
       ...items,
-      item,
+      {
+        ...item,
+        quantity: 1,
+      },
     ])
   }
 
-  const removeToCart = id => {
-    setItems(items.filter(item => item.id !== id))
+  const decreaseToCart = item => {
+    const delItem = items.find(findItem(item._id))
+    if(delItem.quantity && delItem.quantity > 1) {
+      return setItems(items.map(i => {
+        if(delItem._id === i._id) {
+          return  {
+            ...i,
+            quantity: i.quantity - 1
+          }
+        }
+        return i
+      }))
+    }
+    if(delItem.quantity === 1) {
+     return this.removeToCart(delItem)
+    }
   }
+
+  const removeToCart = item =>
+    setItems(items.filter(i => i._id !== item._id))
+
+  const totalItems = () =>
+    items.reduce((current, previous) => current + previous.quantity, 0)
+
+  const amount = () =>
+    items.reduce((current, previous) => current + (previous.quantity * previous.value), 0)
 
   const resetCart = () => {
     setItems([])
@@ -24,9 +64,12 @@ const CartProvider = ({
 
   return (
     <CartContext.Provider value={{
+      amount,
       addToCart,
+      decreaseToCart,
       removeToCart,
       resetCart,
+      totalItems,
       items,
     }}>
       { children }

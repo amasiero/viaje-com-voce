@@ -3,18 +3,15 @@ import { HashRouter, Route, Redirect } from 'react-router-dom'
 
 import Gallery from '../gallery/gallery'
 import Cart from '../cart/cart'
+import Checkout from '../cart/checkout'
 import Travel from '../travel/travel'
 
-export default props => {
-// console.log(props)
-const {addCart, removeCart, cartAmount, cartList} = props
-// console.log(addCart)
-return(
+export default () => (
   <HashRouter>
-    <Route path='/galeria' render={(props) => <Gallery {...props} />} />
+    <Route path='/galeria' component={Gallery} />
     <Route path='/viagem/:id' component={Travel} />
     <Route path='/carrinho' component={Cart} />
+    <Route path='/finalizar-compra' component={Checkout} />
     <Redirect from='*' to='/galeria' />
   </HashRouter>
 )
-}

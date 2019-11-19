@@ -8,9 +8,9 @@ export default props => (
       <li>
         <a href='#/carrinho'>Carrinho <i className="fa fa-shopping-cart"></i>
           <CartConsumer>
-            { ({items}) => (
+            { ({items,totalItems}) => (
                 <If test={items.length}>
-                  <span className="badge">{items.length}</span>
+                  <span className="badge">{totalItems()}</span>
                 </If>
               )
             }
