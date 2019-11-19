@@ -1,0 +1,62 @@
+[
+    {
+        "description": "O pico dos Marins é uma montanha brasileira, situada na serra da Mantiqueira, no Estado de São Paulo. Seu cume está 2420,7 metros acima do nível do mar, sendo o 26° pico mais alto do país. Formado por um grande maciço rochoso com paredões íngremes, a montanha é um importante destino para quem pratica trekking.\n\nDurante muitos anos, o pico dos Marins foi erroneamente considerado o ponto mais alto do estado de São Paulo. Esta informação podia ser encontrada em muitas publicações oficiais e livros escolares. Mais tarde, porém, descobriu-se que vários picos da serra Fina, um setor da serra da Mantiqueira localizado mais a leste, eram bem mais altos. O pico mais alto da serra Fina, a Pedra da Mina, na divisa com Minas Gerais, é reconhecido agora como o verdadeiro ponto culminante do estado de São Paulo, a 2798 m - uma diferença de 377 m a mais que o pico dos Marins, quase a altura do Pão de Açúcar. O pico dos Três Estados, onde se situa o ponto tríplice das divisas dos estados de São Paulo, Minas Gerais e Rio de Janeiro, também é consideravelmente mais alto, a 2665 m.\n\nO pico dos Marins é ainda mencionado com frequência, mas também incorretamente, como sendo a montanha mais alta localizada inteiramente dentro do estado de São Paulo (isto é, não localizada na divisa com Minas Gerais ou o Rio de Janeiro). Segundo o Anuário Estatístico 2014 do IBGE, pelo menos duas montanhas da serra Fina são mais altas e estão inteiramente dentro do território paulista: o pico da Cabeça de Touro, a sudoeste do pico dos Três Estados e provavelmente a verdadeira montanha mais alta inteiramente paulista, a exatos 2600 m, e o morro do Tartarugão, logo a sudoeste da Pedra da Mina, a 2595 m. Os dados topográficos da serra Fina ainda são muito incompletos e é possível que outras montanhas mais altas ainda venham a ser encontradas.\n\nMesmo assim, o pico dos Marins é uma das montanhas mais altas do estado, destacando-se pela sua imponência e pelo fato de ser um marco geográfico facilmente visível e reconhecível a partir de uma ampla faixa do Vale do Paraíba e das montanhas da Mantiqueira, o que é facilitado pela sua localização fora da crista principal da serra.\n",
+        "name": "Pico dos Marins",
+        "value": 2199,
+        "image": "https://i.ibb.co/6FzPQCx/pico-dos-marins.jpg"
+    },
+    {
+        "name": "Itacaré",
+        "description": "Itacaré é um município do estado da Bahia, no Brasil. Sua população estimada em 2016 era de 28 013 habitantes. É muito famoso pela beleza natural de suas praias, que atraem turistas de todo o mundo e muitos surfistas.",
+        "value": 2350.23,
+        "image": "https://i.ibb.co/qYfg8Zx/itacare.jpg"
+    },
+    {
+        "name": "Pedra Grande de Atibaia",
+        "description": "Percorreremos as trilhas do Núcleo Engordador, no Parque Estadual da Cantareira. As trilhas existentes no núcleo caracterizam-se, principalmente, por oferecer a oportunidade de um contato direto com a Mata Atlântica, mesmo estando no município de São Paulo. Durante a caminhada, plantas nativas, como samambaiaçus e helicônias se misturam com plantas exóticas (café e eucalipto), resquício da presença antrópica na área do parque. Logo após seguiremos para a Pedra Grande (1.450 m de altitude), principal ponto turísticos de Atibaia. No alto de uma colina, aflora um enorme monólito que proporciona um magnífico mirante para toda a Atibaia e regiões vizinhas, de onde teremos a oportunidade de apreciar o por do sol e o nascer das estrelas.Retornaremos com o transporte que estará aguardando próximo ao local. Inclui: Lanche de trilha, passeios com acompanhamento de guias, seguro-viagem. Passeio indicado para todas as idades.O roteiro poderá ser alterado, se condições climáticas ou motivos alheios à nossa vontade assim o exigir.",
+        "value": 650,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/img2.jpg"
+    },
+    {
+        "name": "Cachoeiras do Perequê",
+        "description": "A trilha acompanha o Rio Perequê até uma cachoeira de 70 m de altura. No caminho, alguns poços oferecerão a oportunidade de nos refrescarmos com deliciosos mergulhos. – Nível de dificuldade: leve (com trilhas íngremes) – Duração: 5 horas.",
+        "value": 1200,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/20160421_135517-1920x800.jpg"
+    },
+    {
+        "name": "Pedra do Rochedo",
+        "description": "Serra de Santa Bárbara – Subida pelo Vale de Santa Bárbara, curtindo belíssimas paisagens: águas cristalinas, límpidas, ligeiras, por entre pedras, formando piscinas naturais e pequenas quedas. No final do dia, uma parada no centrinho de São Francisco, para um café, chocolate, ou até mesmo comer uma deliciosa truta.",
+        "value": 900,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/101_5862.jpg"
+    },
+    {
+        "name": "São Francisco Xavier / Monte Verde",
+        "description": "Seguiremos para São Francisco Xavier, Área de Proteção Ambiental da Mantiqueira. A região foi rota de tropeiros, que usavam a Serra de Santa Bárbara como principal caminho. A trilha tem um percurso de aproximadamente 12 km. Chegada em Monte Verde e um tempinho para tomar um chocolate quente.",
+        "value": 1199,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/mte-verde.jpg"
+    },
+    {
+        "name": "Pico da Bandeira e Pico do Cristal",
+        "description": "Parque Nacional da Serra do Caparaó foi criado em 1961 e faz divisa com os Estados de Minas Gerais e Espírito Santo. Abriga o terceiro e o sexto picos mais altos do país. É formado por vegetação de Mata Atlântica e campos de altitude, um refúgio de preciosas espécies da fauna brasileira, sobreviventes da ação predatória do homem: quatis, gambás, tatus, caxinguelês, pacas, cuícas e espécies em extinção, como o mono-carvoeiro.",
+        "value": 2499,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/IMG_0462.jpg"
+    },
+    {
+        "name": "Pico do Lopo",
+        "description": "A Serra do Lopo pode ser considerado um local raro, pois, a pouco mais de 100 km de São Paulo, consegue reunir em suas trilhas paisagens típicas de mata atlântica e de montanha. Caminharemos por uma belíssima trilha, com cerca de 9 km, ida e volta, que se inicia pela mata, depois segue ao longo da crista desta serra, que é a divisa dos estados de São Paulo e Minas Gerais. Faremos a subida ao cume do Pico do Lopo, com 1.727 m.",
+        "value": 999,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/02/DSCN4778.jpg"
+    },
+    {
+        "name": "Encantos de Mendonza",
+        "description": "A charmosa cidade de Mendoza, aos pés da Cordilheira dos Andes, possui encantos que o surpreenderão. Nesta viagem conheceremos os vinhedos de uma forma bem ativa: sobre bicicletas ou de carro como preferir. Conheceremos um pouco mais sobre a fabricação dos melhores vinhos da América do Sul e poderemos degustá-los.",
+        "value": 5999,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2018/12/IMG_4781.jpg"
+    },
+    {
+        "name": "Terras Altas da Mantiqueira",
+        "description": "Terras Altas da Mantiqueira é uma belíssima região do Sul de Minas Gerais, encravada entre sete picos dos mais altos do País, um cenário inesquecível em meio à exuberante floresta tropical da Mata Atlântica, onde as quatro estações do ano se definem bem ao estilo europeu. São montanhas e vales, bosques de araucária entrecortados aqui e ali por lindas cachoeiras e uma flora singular onde se sobressaem: bromélias, o popular beijinho, o mandacaru e espécimes de climas quentes e frios convivendo em perfeita harmonia e abrigando uma fauna bem rica e diversificada. O circuito oferece paisagens deslumbrantes, comidas típicas da culinária mineira e belas cachoeiras. Mantiqueira em tupi quer dizer serra que chora, este nome se justifica devido às inúmeras cachoeiras da região. A região está próxima aos três maiores centros urbanos brasileiros: São Paulo, Rio de Janeiro e Belo Horizonte. O circuito é um dos mais completos roteiros ecológicos do Brasil, destino certo para quem busca lazer, descanso e tranquilidade. Fazem parte deste complexo, as cidades de Aiuruoca, Alagoa, Itamonte, Itanhandu, Passa Quatro, Pouso Alto, São Sebastião do Rio Verde e Virgínia.",
+        "value": 2350,
+        "image": "https://namastenatureza.com.br/wp-content/uploads/2019/10/IMG_3226.jpg"
+    }
+]
