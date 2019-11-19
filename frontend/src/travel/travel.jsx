@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 
+import {CartConsumer} from '../context/cartContext'
+
 const URL = 'http://localhost:3003/api/viaje'
 
 export default props => {
@@ -16,19 +18,23 @@ export default props => {
   })
 
   return (
-    <div className='container'>
-      <h1 className='details-name full-size'>{travel.name}</h1>
-      <img className='details-img full-size center' src={travel.image} />
-      <div className='details-description quarter-up'>
-        <h3 className='details-description-title'>Descrição do Pacote</h3>
-        <p className='details-description-content'>{travel.description}</p>
+    <CartConsumer>
+      { ({addToCart}) => (
+      <div className='container'>
+        <h1 className='details-name full-size'>{travel.name}</h1>
+        <img className='details-img full-size center' src={travel.image} />
+        <div className='details-description quarter-up'>
+          <h3 className='details-description-title'>Descrição do Pacote</h3>
+          <p className='details-description-content'>{travel.description}</p>
+        </div>
+        <div className='details-values quarter-down center'>
+          <h2 className='details-values-price'>R$ {travel.value}</h2>
+          <button className='btn btn-alert product-btn' onClick={() => addToCart(travel)}>
+            <i className='fa fa-cart-plus'></i> Adicionar
+          </button>
+        </div>
       </div>
-      <div className='details-values quarter-down center'>
-        <h2 className='details-values-price'>R$ {travel.value}</h2>
-        <button className='btn btn-alert product-btn'>
-          <i className='fa fa-cart-plus'></i> Adicionar
-        </button>
-      </div>
-    </div>
+    )}
+    </CartConsumer>
   )
 }

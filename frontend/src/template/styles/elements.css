@@ -37,6 +37,16 @@ header {
   height: 70px;
 }
 
+input {
+  background: #fffd;
+  border: 0;
+  border-bottom: 1px solid  #48506588;
+  display: block;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
 input[type=checkbox] {
     box-sizing: border-box;
     display: none;
@@ -47,6 +57,12 @@ input[type="checkbox"]:checked ~ .menu {
   transform: translateX(0);
   -moz-transform: translateX(0);
   -webkit-transform: translateX(0);
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
 }
 
 tr {

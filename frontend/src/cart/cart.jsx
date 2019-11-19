@@ -7,7 +7,6 @@ export default withRouter(props => {
   const navToCheckout = () => props.history.push('/finalizar-compra')
 
   const renderRows = (items, addToCart, decreaseToCart, removeToCart) => {
-      console.log(items)
       return items.map(item => (
       <tr key={item._id}>
         <td>{item.name}</td>

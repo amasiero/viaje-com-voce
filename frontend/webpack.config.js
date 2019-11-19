@@ -22,10 +22,11 @@ module.exports = {
     ],
     module: {
         loaders: [{
-            test: /.js[x]?$/,
+            test: /\.js[x]?$/,
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
+                cacheDirectory: true,
                 presets: ['es2015', 'react'],
                 plugins: ['transform-object-rest-spread']
             }
@@ -35,6 +36,9 @@ module.exports = {
         }, {
             test: /\.woff|.woff2|.ttf|.eot|.svg*.*$/,
             loader: 'file'
+        }, {
+            test: /\.json$/,
+            loader: 'json-loader'
         }]
     }
 }
